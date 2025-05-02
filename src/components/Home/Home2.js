@@ -19,35 +19,39 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I'm a passionate programmer who discovered a love for coding and
+              never looked back.
               <br />
-              <br />I am fluent in classics like
+              <br />
+              Along the way, I've picked up strong skills in
               <i>
-                <b className="purple"> Javascript, PHP and C#. </b>
+                <b className="purple"> Javascript, PHP and C#, </b>
               </i>
+              and I'm always eager to learn more.
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              I'm especially interested in crafting innovative
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">Software Development.</b>
+                <b className="purple">web technologies </b>
               </i>
+              and building impactful software products. Whether it's front-end
+              or back-end, I enjoy diving deep into the development process to
+              create seamless digital experiences.
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              Whenever I get the chance, I love working with{" "}
+              <b className="purple">Node.js</b> and
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  modern javascript library and frameworks
                 </b>
               </i>
               &nbsp; like
               <i>
                 <b className="purple"> React.js</b>
               </i>
+              , bringing ideas to life through clean, scalable code.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -58,7 +62,7 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
+            <h1>LET'S CONNECT</h1>
             <p>
               Feel free to <span className="purple">connect </span>with me
             </p>
