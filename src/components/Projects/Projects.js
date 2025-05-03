@@ -9,6 +9,7 @@ import socialbook from "../../Assets/Projects/socialbook.png";
 import linkedln from "../../Assets/Projects/linkedln.png";
 import strawhat from "../../Assets/Projects/strawhat.png";
 import portfolioTemplate1 from "../../Assets/Projects/portfolio-template1.png";
+import portfolioTemplate2 from "../../Assets/Projects/portfolio-template2.png";
 
 function Projects() {
   return (
@@ -19,7 +20,7 @@ function Projects() {
           My Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Here are a few of the projects I’ve built recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
@@ -38,7 +39,7 @@ function Projects() {
               imgPath={ecommerce}
               isBlog={false}
               title="Ecommerce"
-              description="Developed a full-stack e-commerce application using the MERN stack(MongoDB, Express.js, React.js, Node.js), featuring userauthentication, product browsing, cart management, and a securecheckout process that deployed and hosted in AWS."
+              description="Developed a full-stack e-commerce application using the MERN stack(MongoDB, Express.js, React.js, Node.js), featuring user authentication, product browsing, cart management, and a secure checkout process that deployed and hosted in AWS."
               ghLink="https://github.com/eiirikr/E-commerce"
               demoLink="http://zuitt-bootcamp-prod-482-8068-javier.s3-website.us-east-1.amazonaws.com/"
             />
@@ -48,8 +49,8 @@ function Projects() {
             <ProjectCard
               imgPath={votesystem}
               isBlog={false}
-              title="Votesystem"
-              description="Developed a responsive online voting system using HTML5, CSS3,Bootstrap, AJAX, jQuery, PHP, and MySQL. The system is designed forseamless functionality across all devices and browsers, ensuring accessibility for all users. Additionally, it includes a registered domain name for professional hosting and easy access, hosted in Netlify."
+              title="Online Voting System"
+              description="Developed a responsive online voting system using HTML5, CSS3, Bootstrap, AJAX, jQuery, PHP, and MySQL. The system is designed forseamless functionality across all devices and browsers, ensuring accessibility for all users. Additionally, it includes a registered domain name for professional hosting and easy access, hosted in Netlify."
               ghLink="https://github.com/eiirikr/votingsystem"
               demoLink="https://ici-votingsystem.online/"
             />
@@ -60,7 +61,7 @@ function Projects() {
               imgPath={socialbook}
               isBlog={false}
               title="Socialbook"
-              description="A fully responsive web application replicating key Facebook features,including user profiles, posts, likes, and comments. Built with HTMLand CSS, it mimics Facebook’s interface, showcasing my front-endskills and expertise in web structure and responsive design."
+              description="A fully responsive web application replicating key Facebook features, including user profiles, posts, likes, and comments. Built with HTML and CSS, it mimics Facebook’s interface, showcasing my front-end skills and expertise in web structure and responsive design."
               ghLink="https://github.com/eiirikr/Socialbook"
               demoLink="https://social-javier-projects.vercel.app/"
             />
@@ -81,8 +82,8 @@ function Projects() {
             <ProjectCard
               imgPath={strawhat}
               isBlog={false}
-              title="Strawhat"
-              description="A fully responsive LinkedIn-inspired web application built with HTML and CSS. It features user profiles, post feeds, likes, and comments—closely replicating LinkedIn's layout and functionality. This project highlights my front-end development skills and ability to create professional UI/UX designs."
+              title="Straw Hat's Website"
+              description="A fan-made portfolio website dedicated to the Straw Hat Pirates from One Piece. This project showcases each crew member's profile, role, and story, all presented in a clean, responsive design. Built with HTML, CSS, and Bootstrap, it reflects both my love for anime and my skills in front-end web development."
               ghLink="https://github.com/eiirikr/static-app-1"
               demoLink="https://strawhat-javier-projects.vercel.app/"
             />
@@ -92,10 +93,21 @@ function Projects() {
             <ProjectCard
               imgPath={portfolioTemplate1}
               isBlog={false}
-              title="PortfolioTemplate1"
-              description="A fully responsive LinkedIn-inspired web application built with HTML and CSS. It features user profiles, post feeds, likes, and comments—closely replicating LinkedIn's layout and functionality. This project highlights my front-end development skills and ability to create professional UI/UX designs."
+              title="Portfolio Template1"
+              description="A clean and responsive portfolio template built with HTML, CSS, and Bootstrap. Designed for graphic designers and creatives to showcase their skills, projects, and contact information in a professional layout. This template highlights my eye for design and focus on mobile-first development."
               ghLink="https://github.com/eiirikr/static-portfolio1"
               demoLink="https://portfolio1-javier-projects.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={portfolioTemplate2}
+              isBlog={false}
+              title="Portfolio Template2"
+              description="A sleek and fully responsive portfolio template crafted with HTML, CSS, and Bootstrap. Tailored for graphic designers and creative professionals, it provides a polished layout for showcasing work, skills, and contact details. This project reflects my strong design sense and commitment to mobile-first, user-friendly development."
+              ghLink="https://github.com/eiirikr/static-portfolio2"
+              demoLink="https://portfolio2-javier-projects.vercel.app/"
             />
           </Col>
         </Row>

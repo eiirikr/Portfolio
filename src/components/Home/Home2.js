@@ -40,7 +40,10 @@ function Home2() {
               <br />
               <br />
               Whenever I get the chance, I love working with{" "}
-              <b className="purple">Node.js</b> and
+              <i>
+                <b className="purple">Node.js</b>
+              </i>{" "}
+              and
               <i>
                 <b className="purple">
                   {" "}
