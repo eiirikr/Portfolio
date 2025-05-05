@@ -20,7 +20,7 @@
 
 <h3 align="center">
     🔹
-    <a href="https://github.com/eiirikr/Portfolio/issues">Report Bug</a> &nbsp; &nbsp;
+    <a href="https://github.com/eiirikr/Portfolio/issues" target="_blank">Report Bug</a> &nbsp; &nbsp;
     🔹
     <a href="https://github.com/eiirikr/Portfolio/issues">Request Feature</a>
 </h3>
