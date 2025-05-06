@@ -22,7 +22,7 @@
     🔹
     <a href="https://github.com/eiirikr/Portfolio/issues" target="_blank">Report Bug</a> &nbsp; &nbsp;
     🔹
-    <a href="https://github.com/eiirikr/Portfolio/issues">Request Feature</a>
+    <a href="https://github.com/eiirikr/Portfolio/issues" target="_blank">Request Feature</a>
 </h3>
 
 ## TL;DR
