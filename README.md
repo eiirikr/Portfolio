@@ -25,7 +25,6 @@
     <a href="https://github.com/eiirikr/Portfolio/issues" target="_blank">Request Feature</a>
 </h3>
 
-## TL;DR
 
 You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [eiirikr](https://github.com/eiirikr/Portfolio). Thanks!
 
