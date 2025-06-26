@@ -1,6 +1,6 @@
 <h2 align="center">
   My Portfolio Website<br/>
-  <a href="https://tech-javier-projects.vercel.app/" target="_blank">jeric.com</a>
+  <a href="https://tech-javier-projects.vercel.app/" target="_blank">jeric.tech</a>
 </h2>
 <div align="center">
   <img alt="Demo" src="./Images/readme-img1.png" />
