@@ -8,8 +8,7 @@ import votesystem from "../../Assets/Projects/votesystem.png";
 import socialbook from "../../Assets/Projects/socialbook.png";
 import linkedln from "../../Assets/Projects/linkedln.png";
 import strawhat from "../../Assets/Projects/strawhat.png";
-import portfolioTemplate1 from "../../Assets/Projects/portfolio-template1.png";
-import portfolioTemplate2 from "../../Assets/Projects/portfolio-template2.png";
+import storeIt from "../../Assets/Projects/storeIt.png";
 
 function Projects() {
   return (
@@ -91,16 +90,16 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={portfolioTemplate1}
+              imgPath={storeIt}
               isBlog={false}
-              title="Portfolio Template1"
-              description="A clean and responsive portfolio template built with HTML, CSS, and Bootstrap. Designed for graphic designers and creatives to showcase their skills, projects, and contact information in a professional layout. This template highlights my eye for design and focus on mobile-first development."
-              ghLink="https://github.com/eiirikr/static-portfolio1"
-              demoLink="https://portfolio1-javier-projects.vercel.app/"
+              title="StoreIt"
+              description="A storage management and file sharing platform that lets users effortlessly upload, organize, and share files. Built with the latest Next.js 15 and the Appwrite Node SDK, utilizing advanced features for seamless file management."
+              ghLink="https://github.com/eiirikr/JerDrive"
+              demoLink="https://store-it-xi-five.vercel.app/"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={portfolioTemplate2}
               isBlog={false}
@@ -109,7 +108,7 @@ function Projects() {
               ghLink="https://github.com/eiirikr/static-portfolio2"
               demoLink="https://portfolio2-javier-projects.vercel.app/"
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
