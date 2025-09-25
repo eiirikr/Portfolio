@@ -9,6 +9,7 @@ import socialbook from "../../Assets/Projects/socialbook.png";
 import linkedln from "../../Assets/Projects/linkedln.png";
 import strawhat from "../../Assets/Projects/strawhat.png";
 import storeIt from "../../Assets/Projects/storeIt.png";
+import trendingToday from "../../Assets/Projects/trendingToday.png";
 
 function Projects() {
   return (
@@ -99,16 +100,16 @@ function Projects() {
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={portfolioTemplate2}
+              imgPath={trendingToday}
               isBlog={false}
-              title="Portfolio Template2"
-              description="A sleek and fully responsive portfolio template crafted with HTML, CSS, and Bootstrap. Tailored for graphic designers and creative professionals, it provides a polished layout for showcasing work, skills, and contact details. This project reflects my strong design sense and commitment to mobile-first, user-friendly development."
-              ghLink="https://github.com/eiirikr/static-portfolio2"
-              demoLink="https://portfolio2-javier-projects.vercel.app/"
+              title="TrendingToday"
+              description="Built with React.js for the user interface, Appwrite for backend services, and styled with TailwindCSS, this Movie App lets users browse trending movies, search titles, and explore content using the TMDB API. It features a responsive layout and a sleek, modern design."
+              ghLink="https://github.com/eiirikr/TrendingToday"
+              demoLink="https://trending-today-nine.vercel.app/"
             />
-          </Col> */}
+          </Col>
         </Row>
       </Container>
     </Container>
