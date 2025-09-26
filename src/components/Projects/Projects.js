@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import portfolio from "../../Assets/Projects/portfolio.png";
 import ecommerce from "../../Assets/Projects/ecommerce.png";
 import votesystem from "../../Assets/Projects/votesystem.png";
 import socialbook from "../../Assets/Projects/socialbook.png";
@@ -10,6 +9,7 @@ import linkedln from "../../Assets/Projects/linkedln.png";
 import strawhat from "../../Assets/Projects/strawhat.png";
 import storeIt from "../../Assets/Projects/storeIt.png";
 import trendingToday from "../../Assets/Projects/trendingToday.png";
+import memeGenerator from "../../Assets/Projects/memeGenerator.png";
 
 function Projects() {
   return (
@@ -23,16 +23,6 @@ function Projects() {
           Here are a few of the projects I’ve built recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={portfolio}
-              isBlog={false}
-              title="Portfolio"
-              description="Developed my personal portfolio website using  React.js, styled with React-Bootstrap and CSS, featuring some of my github projects as well as my resume and technical skills that deployed and hosted in Vercel."
-              ghLink="https://github.com/eiirikr/Portfolio"
-              demoLink="https://tech-javier-projects.vercel.app/"
-            />
-          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -108,6 +98,17 @@ function Projects() {
               description="Built with React.js for the user interface, Appwrite for backend services, and styled with TailwindCSS, this Movie App lets users browse trending movies, search titles, and explore content using the TMDB API. It features a responsive layout and a sleek, modern design."
               ghLink="https://github.com/eiirikr/TrendingToday"
               demoLink="https://trending-today-nine.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={memeGenerator}
+              isBlog={false}
+              title="Meme Generator"
+              description="Developed an interactive web application that allows users to create and customize memes by uploading images or selecting from templates. Implemented dynamic text rendering with options for top and bottom captions. Designed a responsive and user-friendly interface, enabling meme downloads and sharing across devices."
+              ghLink="https://github.com/eiirikr/meme-generator"
+              demoLink="https://meme-generator-eight-eta.vercel.app/"
             />
           </Col>
         </Row>
