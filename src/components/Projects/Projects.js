@@ -10,6 +10,7 @@ import strawhat from "../../Assets/Projects/strawhat.png";
 import storeIt from "../../Assets/Projects/storeIt.png";
 import trendingToday from "../../Assets/Projects/trendingToday.png";
 import memeGenerator from "../../Assets/Projects/memeGenerator.png";
+import nakamaTest from "../../Assets/Projects/nakamaTest.png";
 
 function Projects() {
   return (
@@ -111,6 +112,18 @@ function Projects() {
               demoLink="https://meme-generator-eight-eta.vercel.app/"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={nakamaTest}
+              isBlog={false}
+              title="Nakama Test"
+              description="The Nakama Test is an interactive quiz designed for all One Piece fans. Answer a set of randomized questions and discover your fan level — are you a casual viewer, a loyal fan, or a true Nakama?"
+              ghLink="https://github.com/eiirikr/nakama-test"
+              demoLink="https://nakama-test.vercel.app/"
+            />
+          </Col>
+
         </Row>
       </Container>
     </Container>
