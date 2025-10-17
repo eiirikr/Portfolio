@@ -11,6 +11,7 @@ import storeIt from "../../Assets/Projects/storeIt.png";
 import trendingToday from "../../Assets/Projects/trendingToday.png";
 import memeGenerator from "../../Assets/Projects/memeGenerator.png";
 import nakamaTest from "../../Assets/Projects/nakamaTest.png";
+import tenzies from "../../Assets/Projects/tenzies.png";
 
 function Projects() {
   return (
@@ -121,6 +122,17 @@ function Projects() {
               description="The Nakama Test is an interactive quiz designed for all One Piece fans. Answer a set of randomized questions and discover your fan level — are you a casual viewer, a loyal fan, or a true Nakama?"
               ghLink="https://github.com/eiirikr/nakama-test"
               demoLink="https://nakama-test.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={tenzies}
+              isBlog={false}
+              title="Tenzies"
+              description="Tenzies Game is a fun and interactive web-based dice game where players roll ten dice and try to get all of them to show the same number. Built using React.js, it features a clean user interface, dynamic state updates, and smooth animations for an engaging gaming experience. The project showcases my skills in JavaScript, component-based design, and game logic implementation."
+              ghLink="https://github.com/eiirikr/tenzies"
+              demoLink="https://tenzies-ten-pi.vercel.app/"
             />
           </Col>
 
