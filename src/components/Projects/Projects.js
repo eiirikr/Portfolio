@@ -12,6 +12,7 @@ import trendingToday from "../../Assets/Projects/trendingToday.png";
 import memeGenerator from "../../Assets/Projects/memeGenerator.png";
 import nakamaTest from "../../Assets/Projects/nakamaTest.png";
 import tenzies from "../../Assets/Projects/tenzies.png";
+import assemblyEndgame from "../../Assets/Projects/assemblyEndgame.png";
 
 function Projects() {
   return (
@@ -133,6 +134,17 @@ function Projects() {
               description="Tenzies Game is a fun and interactive web-based dice game where players roll ten dice and try to get all of them to show the same number. Built using React.js, it features a clean user interface, dynamic state updates, and smooth animations for an engaging gaming experience. The project showcases my skills in JavaScript, component-based design, and game logic implementation."
               ghLink="https://github.com/eiirikr/tenzies"
               demoLink="https://tenzies-ten-pi.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={assemblyEndgame}
+              isBlog={false}
+              title="Assembly-Endgame"
+              description="Assembly-Endgame is a dynamic and interactive web application built using React.js that challenges users to think logically and strategically. It features a sleek and responsive interface with smooth transitions, creating an immersive user experience. The project showcases my skills in JavaScript, React components, and creative problem-solving, combining modern design principles with functional interactivity."
+              ghLink="https://github.com/eiirikr/assembly-endgame"
+              demoLink="https://assembly-endgame-zeta.vercel.app/"
             />
           </Col>
 
