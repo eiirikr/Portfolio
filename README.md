@@ -17,7 +17,7 @@
 
 </center>
 
-<h3 align="center">
+<h3>
     🔹
     <a href="https://github.com/eiirikr/Portfolio/issues" target="_blank">Report Bug</a> &nbsp; &nbsp;
     🔹
